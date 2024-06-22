@@ -1,0 +1,278 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: inside;
+    font-size: 18px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.member img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+}
+
+#testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.testimonial-heading{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-heading h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+.testimonial-heading span{
+    font-size: 1.3rem;
+    color: black;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#main{
+    margin: 150px;
+    border: 5px solid black;
+    box-shadow: 0px 15px 30px 0px black;
+}
+
+#bold{
+    font-size: 30px;
+    color: yellow;
+}
+
+#bold1{
+    font-size: 50px;
+    color: darkgoldenrod;
+}
+
+#message{
+    width: 300px;
+}
+
+#SUBMIT{
+    color: azure;
+    background-color: black;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+#SUBMIT:hover{
+    color: azure;
+    background-color: purple;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.container .header{
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.container .header:hover{
+    color: yellow;
+    font-weight: 600;
+    transition: 2;
+}
+
+#project2{
+    border: 5px solid black;
+    box-shadow: 0px 15px 30px 0px black;
+}
+
+#project3{
+    border: 5px solid black;
+    box-shadow: 0px 15px 30px 0px black;
+}
+
+#project4{
+    border: 5px solid black;
+    box-shadow: 0px 15px 30px 0px black;
+}
+
+.about{
+    color: black;
+}
+
+.p{
+    color: black;
+    font-size: 22px;
+}
+
+#sathiya{
+    border: 5px solid black;
+    box-shadow: 0px 15px 20px 0px black;
+}
+
+
+#ram{
+    border: 5px solid black;
+    box-shadow: 0px 15px 20px 0px black;
+}
+
+#SATHIYA{
+    font-size: 30px;
+}
+
+#RAM{
+    font-size: 30px;
+}
+
+#cd{
+    position: absolute;
+    left: 800px;
+    right:200px;
+    top: 1700px;
+}
+
+#lv{
+    position: absolute;
+    top: 2200px;
+    left: 200px;
+    right:800px;
+}
+
+#oat{
+    position: absolute;
+    left: 800px;
+    right:200px;
+    top: 2800px;
+}
+
+.profile
+{
+    height: 400px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px;
+}
+.pro 
+{
+    margin: 18%;
+    height: 250px;
+    width: 200px;
+}
+.img
+{
+    margin: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 10px 1px 5px 5px black;
+}
+.client
+{
+    text-align: center;
+}
+.star
+{
+    text-align: center;
+    font-size: 30px;
+    color: gold;
+}
+.review
+{
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+#project4
+{
+    margin-top: 20px;
+}
